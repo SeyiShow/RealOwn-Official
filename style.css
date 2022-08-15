@@ -56,7 +56,7 @@ nav.sticky{
 .content{
     position: relative;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 8%;
     padding: 0.4em;
     color: rgb(98, 170, 98);
     line-height: 45px;
@@ -84,10 +84,11 @@ nav.sticky{
     100%{transform: translateY(0)};
 }
 
-@media only screen and (max-width: 600px){
+
+@media all and (max-width: 600px) and (orientation: landscape) {
     .content{
-        margin-top: 25%;
-        font-size: 15px;
+        margin-top: 40%;
+        font-size: 12px;
     }
     .down .slide-down{
         font-size: 20px;
@@ -97,15 +98,58 @@ nav.sticky{
     }
 }
 
+@media all and (max-width: 570px) {
+    .content{
+        font-size: 10px;
+    }
+    .down .slide-down{
+        font-size: 15px;
+    }
+    .top .slide-up{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 280px) {
+    .content{
+        font-size: 13px;
+    }
+    .down .slide-down{
+        font-size: 16px;
+    }
+    .top .slide-up{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .down .slide-down{
+        font-size: 18px;
+    }
+    
+}
+
+@media all and (max-width: 280px){
+    .content{
+        font-size: 10px;
+    }
+    .down .slide-down{
+        font-size: 15px;
+    }
+    .top .slide-up{
+        font-size: 10px;
+    }
+}
+
 .service{
     width: 95%;
-    margin-top: 300px;
+    margin-top: 70px;
     margin-bottom: 70px;
 }
 .top-off{
     color: #000;
     font-size: 24px;
-    padding-top: 20px;
+    padding-top: 100px;
     margin-left: 55px;
     margin-top: 80px;
 }
@@ -154,19 +198,88 @@ nav.sticky{
     }
 }
 
-@media only screen and (max-width: 600px) {
-
-    .service {
-      grid-template-columns: 1fr;
+@media all and (max-width: 912px) {
+    .top-off{
+        margin-left: 350px;
+        font-size: 35px;
     }
     .box{
         grid-template-columns: 1fr;
         display: inline-block;
+        margin-left: 2px;
+    }
+    .card{
+        margin-left: 190px;
+        width: 500px;
+    }
+    .card p{
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .card{
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .service {
+      grid-template-columns: 1fr;
+    }
+    .top-off{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .box{
+        grid-template-columns: 1fr;
+        display: inline-block;
+        margin-left: 2px;
+    }
+    .card{
+        margin-left: 30px;
+        width: 270px;
     }
     .sub-content{
-        font-size: 14px;
-        padding: 51px;
+        font-size: 12px;
+        padding: 40px;
         text-align: center;
+    }
+}
+
+
+@media all and (max-width: 414px){
+    .card{
+        margin-left: 40px;
+    }
+    .pra p{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .card{
+        width: 260px;
+    }
+    .pra p{
+        font-size: 15px;
+    }
+    .sub-content h3{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 280px){
+    .card{
+        margin-left: 20px;
+        width: 240px;
+    }
+    .sub-content h3{
+        font-size: 16px;
+    }
+    .pra p{
+        font-size: 12px;
     }
 }
 
@@ -191,7 +304,8 @@ nav.sticky{
     animation-duration: 10s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;  
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; 
 }
 .images-2{
     position: absolute;
@@ -226,7 +340,8 @@ nav.sticky{
     animation-duration: 10s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; 
 }
 
 @keyframes pics-animation{
@@ -256,15 +371,55 @@ nav.sticky{
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 1024px) {
+    .main h1{
+        letter-spacing: 4px;
+    }
+    .images{
+        margin-left: 250px;
+    }
+}
+
+@media all and (max-width: 912px) {
+    .images{
+        margin-left: 290px;
+        margin-top: 10px;
+        width: 560px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .main h1{
+        margin-left: -10px;
+        letter-spacing: 2px;
+    }
+    .images{
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main h1{
+        margin-left: -12;
+        font-size: 29px;
+    }
+    .images{
+        margin-left: 180px;
+        width: 520px;
+        height: 300px;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
     .main{
         display: inline-block;
     }
     .images-1{
         position: absolute;
-        width: 90px;
-        height: 90px;
-        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        margin-left: 2px;
         margin-top: -150px;
 
         opacity: 1;
@@ -276,9 +431,9 @@ nav.sticky{
     }
     .images-2{
         position: absolute;
-        width: 70px;
-        height: 70px;
-        margin-left: 150px;
+        width: 30px;
+        height: 30px;
+        margin-left: 110px;
         margin-top: -120px;
         opacity: 1;
         animation-name: pics-animation;
@@ -289,9 +444,9 @@ nav.sticky{
     }
     .images-3{
         position: absolute;
-        width: 90px;
-        height: 90px;
-        margin-left: 270px;
+        width: 50px;
+        height: 50px;
+        margin-left: 220px;
         margin-top: -150px; 
 
         opacity: 1;
@@ -302,15 +457,15 @@ nav.sticky{
         animation-iteration-count: infinite;
     }
 
-    @keyframes pics-animation{
+@keyframes pics-animation{
         0% {opacity: 1; width: 25px; height: 25px; margin-top: -90px;}
         100% {opacity: 1; width: 100px; height: 100px; margin-top: -140px;}
-    }
+}
 
     .images{
         margin-left: -30px;
         margin-top: -30px;
-        width: 436px;
+        width: 415px;
         height: 200px;
         padding-bottom: 10px;
         border-radius: 0;
@@ -322,12 +477,103 @@ nav.sticky{
 
 }
 
+@media all and (max-width: 540px) {
+    .images{
+        width: 537px;
+        margin-left: -28px;
+    }
+}
+
+@media all and (max-width: 414px){
+    .images{
+        width: 412px;
+    }
+    .main{
+        margin-left: -18px;
+    }
+    .row p{
+        font-size: 17px;
+        margin-left: -18px;
+    }
+}
+
+@media all and (max-width: 393px){
+    .images{
+        width: 390px;
+    }     
+}
+
+@media all and (max-width: 390px){
+    .images{
+        width: 385px;
+    }     
+}
+
+@media all and (max-width: 375px) {
+    .images{
+        width: 373px;
+    }
+}
+
+@media all and (max-width: 360px){
+    .images{
+        width: 358px;
+    }     
+}
+
+@media all and (max-width: 280px){
+    .images{
+        width: 280px;
+    }
+    .images-1{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin-left: -25px;
+        margin-top: -150px;
+
+        opacity: 1;
+        animation-name: pics-animation;
+        animation-duration: 4s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    .images-2{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin-left: 80px;
+        margin-top: -120px;
+        opacity: 1;
+        animation-name: pics-animation;
+        animation-duration: 4s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    .images-3{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin-left: 150px;
+        margin-top: -150px; 
+
+        opacity: 1;
+        animation-name: pics-animation;
+        animation-duration: 4s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+}
+
 .contact{
     text-align: center;
     margin-top: 2%;
     left: 50%;
     padding: 0.4em;
-    height: 100vh;
+    height: 90vh;
 }
 .contact h1{
     color: darkgreen;
@@ -413,17 +659,43 @@ form ::placeholder{
     background-color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 1024px) {
+    .input-field{
+        margin-left: 105px;
+    }
+}
+
+@media all and (max-width: 912px) {
+    .input-field{
+        margin-left: 55px;
+        overflow-x: hidden;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .input-field{
+        margin-left: 2px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .input-field{
+        margin-left: -5;
+        width: 767px;
+    }
+}
+
+@media all and (max-width: 600px) {
     .contact h1{
         font-size: 22px;
     }
     .contact p{
         font-size: 15px;
-        padding-right: 10px;
+        padding-right: 5px;
     }
     .input-field{
-        margin-left: 10px;
-        width: 400px;
+        margin-left: -2px;
+        width: 390px;
         overflow-x: hidden;
     }
     form input{
@@ -438,5 +710,64 @@ form ::placeholder{
     .social-icons{
         margin-left: 50px;
         padding: 25px;
+    }
+}
+
+@media all and (max-width: 540px){
+    .input-field{
+        width: 539px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .input-field{
+        width: 413px;
+    }
+}
+
+@media all and (max-width: 393px) {
+    .input-field{
+        width: 390px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .input-field{
+        width: 390px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .input-field{
+        width: 365px;
+    }
+}
+
+
+
+@media all and (max-width: 280px){
+    .input-field{
+        width: 280px;
+    }
+    .input-field h2{
+        margin-left: -20px;
+        font-size: 20px;
+    }
+    .gap{
+        margin-left: -20px;
+        font-size: 12px;
+    }
+    .contact h1{
+        font-size: 20px;
+    }
+    form input{
+        width: 220px;
+        height: 40px;
+        margin-left: -20px;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .social-icons{
+        margin-left: 5px;
     }
 }
