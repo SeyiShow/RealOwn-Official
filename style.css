@@ -24,7 +24,7 @@ nav{
     text-align: center;
     align-items: center;
     left: 50%;
-    font-weight: 800;
+    font-weight: 600;
 }
 .logo{
     text-align: center;
@@ -87,16 +87,16 @@ nav.sticky{
 }
 
 
-@media all and (max-width: 600px) and (orientation: landscape) {
+@media screen and (max-width: 600px) {
     .content{
         margin-top: 40%;
         font-size: 12px;
     }
     .down .slide-down{
-        font-size: 20px;
+        font-size: 15px;
     }
     .top .slide-up{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -117,10 +117,10 @@ nav.sticky{
         font-size: 13px;
     }
     .down .slide-down{
-        font-size: 16px;
+        font-size: 14px;
     }
     .top .slide-up{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
