@@ -2,37 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Real Estate properties investment">
     <meta name="keyword" content="Real Estate, Investment, Buying, Selling">
     <meta name="author" content="RealOwn Estate"> 
     <title>RealOwnOfficial Estate</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <div class="hero">
             <nav id="navbar">
-                <img src="images/Layer 1.png" width="200px" height="40px">  
+                <img src="images/real_logo.svg">  
             </nav>
-
             <div class="content">
-                <h1 class="down">We <span class="slide-down"><em>reduce</em></span> the risks in real estate</h1>
-                <h1 class="top">investment and <span class="slide-up"><em>increase</em></span> its</h1>
+                <h1 class="down">We <span data-aos="zoom-out" data-aos-duration="3000" class="slide-down"><em>reduce</em></span> the risks in real estate</h1>
+                <h1 class="top">investment and <span data-aos="zoom-in-up" data-aos-duration="3000" class="slide-up"><em>increase</em></span> its</h1>
                 <h1>affordability and profitability</h1>
                 <br><br>
             </div>
-        <div class="hero-btn" width="300px">
-            <a href="https://sendfox.com/form/1dy5wj/1x8qgn" class="btn">Sign me up!</a>
+        <div class="hero-btn">
+            <a href="#section" class="btn">Sign me up!</a>
         </div>
+
+        <img class="cube" src="images/cube.svg">
+        <img class="cube-2" src="images/cube_2.svg">
         </div>
 
         <!--------Service Section---------->
         <section class="service">
+            <img class="coin" src="images/coin.svg">
                 <h3 class="top-off">What If.....</h3>
             <div class="box">
                 <div class="card">
-                    <img src="images/Vector-1.png" width="35px" height="35px">
+                    <img src="images/Vector-1.png" width="40px" height="45px">
                     <div class="pra">
                     <p>Real-estate becomes the new
                         cryptocurrency, a tokenized
@@ -43,7 +47,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="images/Vector-2.png" width="35px" height="35px">
+                    <img src="images/Vector-2.png" width="40px" height="45px">
                     <div class="pra">
                     <p>You can point to massive
                         buildings in your community and
@@ -55,7 +59,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="images/Vector.png" width="35px" height="35px">
+                    <img src="images/Vector.png" width="40px" height="45px">
                     <div class="pra">
                     <p>You can invest in Real estate
                         without taking weeks to research
@@ -71,16 +75,21 @@
                     invest for the future in a more stable market.
                 </h3>
             </div>
+            <img class="dollar" src="images/dollar.svg">
         </section>
 
         <!---------About Us------------>
 
         <section class="about">
-                <img class="images" src="images/sea ship.jpg" alt="image"/>
-                <img id="reveal" class="images-1" src="images/Group_2.png" alt="image"/>
-                <img id="reveal" class="images-2" src="images/Group_3.png" alt="image"/>
-                <img id="reveal" class="images-3" src="images/Group_4-3.png" alt="image"/>
+            <div class="about-section">
+                <img class="images" src="images/township.png" alt="image"/>
+                <img data-aos="fade-up" data-aos-duration="3000" class="images-1" src="images/Group_2.png" alt="image"/>
+                <img data-aos="fade-up" data-aos-duration="3000" class="images-2" src="images/Group_3.png" alt="image"/>
+                <img data-aos="fade-up" data-aos-duration="3000" class="images-3" src="images/Group_4-3.png" alt="image"/>
+    
             <div class="main">
+                <img class="coin-2" src="images/coin-2.svg">
+                <img class="mark" src="images/Mark Icon.svg">
                 <h1>A platform<br>for all</h1>
             </div>
             <div class="row">
@@ -100,10 +109,11 @@
                     with your busy schedules having nothing to worry about.
                 </p>
             </div>
+        </div>
         </section>
 
         <!-----------Contact------------->
-        <section class="contact">
+        <section id="section" class="contact">
             <div class="text">
             <h1>Real Estate investments have</h1>
             <h1>    never been cheaper!</h1>
@@ -119,16 +129,19 @@
                 <p class="gap">launch and lots more.</p>
                 <br>
                 <br>
+                <img class="group" src="images/Group 9.svg">
+                <img class="tree" src="images/tree.svg"> 
                 <form method="post" action="https://sendfox.com/form/1dy5wj/1x8qgn" class="sendfox-form" id="1x8qgn"
-                data-async="true" data-recaptcha="true">
-                <p><input type="text" placeholder="First Name" name="first_name" required></p>
-                <p><input type="text" placeholder="Last Name" name="last_name" required></p>
-                <p><input type="email" placeholder="Email" name="email" required></p>
-                <p><input type="text" name="contact_fields[phone_number]" placeholder="Phone Number"/></p>
-                <p><input type="date" name="contact_fields[birthday]" placeholder="Birthday"/></p> 
-                <div style="position:absolute;left:-5000px;" aria-hidden="true"><input type="text" 
-                name="a_password" tabindex="-1" value="" autocomplete="off"/></div>
-                 <p><button type="submit" class="form-btn"> Submit</button></p>
+                data-async="true">
+                <p><input type="text" placeholder="Name" name="name" required></p>
+                <p><input type="email" placeholder="Email" name="email" required></p> 
+                 <p><button type="submit" class="form-btn" onclick="openPopup()"> Submit</button></p>
+                 <div class="popup" id="popup">
+                    <img src="images/good.svg" width="55px" height="55px">
+                    <h2>Thank You!</h2>
+                    <p>Your details has been successfully submitted. Thanks!</p>
+                    <button type="button" onclick="closePopup()">OK</button>
+                 </div>
                 </form>
                 <div class="social-icons">
                     <ul>
@@ -145,19 +158,23 @@
                             <img src="images/icons8-telegram-app.svg" width="25px" height="25px">
                         </a></li>
                         <li><a href="#">
-                            <img class="mail-svg" src="images/icons8-m-50.png" width="25px" height="25px">
+                            <img class="mail-svg" src="images/Mail.svg" width="25px" height="25px">
                         </a></li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <script src="https://sendfox.com/js/form.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
+            AOS.init();
+        </script>
+        <script src="https://sendfox.com/js/form.js"></script>
+        <script src="script.js">
 
-            window.addEventListener('scroll', reveal);
+         /*    window.addEventListener('scroll', reveal);
 
-        /*    function reveal(){
+           function reveal(){
                 let pics = document.getElementById("pics");
 
                 for(let i = 0; i < pics.lenght; i++){
