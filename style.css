@@ -238,7 +238,7 @@ nav.sticky{
 .main h1{
     margin-top: -70px;
     font-size: 40px;
-    margin-left: 0;
+    margin-left: -30;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 700;
@@ -256,6 +256,7 @@ nav.sticky{
     font-size: 20px;
     line-height: 28px;
     color: #000E0A;
+    margin-left: -30;
 }
 
 /* contact */
@@ -316,7 +317,7 @@ nav.sticky{
 .input-field p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #E0E0E0;
@@ -486,27 +487,17 @@ form ::placeholder{
         width: 914px;
     }
     .content{
-        align-items: center;
-        text-align: center;
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
     }
-    .hero-btn{
-        width: 120px;
-        height: 43px;
-        left: 400px;
-        margin-top: -160px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        margin-top: -120px;
+        margin-left: -230px;
     }
     .cube{
         width: 190px;
-        margin-top: -28px;
+        margin-top: -10px;
     }
     .cube-2{
         width: 250px;
@@ -730,9 +721,22 @@ form ::placeholder{
 
 @media screen and (max-width: 800px) {
     .content{
-        margin-left: 120px;
+        margin-left: 90px;
         font-size: 18px;
+        width: 750px;
     }
+    .btn{
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 358px; 
+        top: 280px;
+    }
+    .cube{
+        margin-top: 15%;
+    }    
     .cube-2{
         left: 58.6%;
     }
@@ -773,23 +777,15 @@ form ::placeholder{
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
-        margin-left: 75px;
+        margin-left: 45px;
     }
-    .hero-btn{
-        width: 120px;
-        height: 43px;
-        left: 340px;
-        margin-top: -160px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        margin-top: -30px;
+        margin-left: -20px;
     }
     .cube{
         width: 190px;
-        margin-top: -28px;
+        margin-top: 18px;
     }
     .cube-2{
         width: 250px;
@@ -1001,8 +997,17 @@ form ::placeholder{
 }
 
 @media screen and (max-width: 712px) {
-    .hero-btn{
-        left: 355px;
+    .content{
+        margin-left: 60px;
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        left: 320px; 
+        top: 280px;
+    }
+    .cube{
+        margin-top: 10%;
     }
     .cube-2{
         left: 53.5%;
@@ -1038,18 +1043,16 @@ form ::placeholder{
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
-        margin-left: 210px;
+        margin-left: 80px;
     }
-    .hero-btn{
-        width: 160px;
-        height: 43px;
-        left: 330px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 320px; 
+        top: 280px;
     }
     .cube{
         width: 250px;
@@ -1278,18 +1281,27 @@ form ::placeholder{
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
-        margin-left: 210px;
+        margin-left: 160px;
+        width: 550px;
     }
-    .hero-btn{
-        width: 160px;
-        height: 43px;
-        left: 330px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        left: 320px; 
+        top: 240px;
+        padding-top: 15px;
+        transition: transform .4s;
+        cursor: pointer;
+        background: #035946;
+        border-radius: 1px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        margin: 18px 18px;
+        color: #fff;
+        text-decoration: none;
     }
     .cube{
         width: 250px;
@@ -1512,15 +1524,16 @@ form ::placeholder{
 
 @media screen and (max-width: 540px) {
     .content{
-        width: 400px;
+        width: 550px;
         line-height: 40px;
     }
-    .hero-btn{
-        margin-top: -110px;
+    .btn{
+        margin-top: 30px;
+        margin-left: 40px;
     }
     .cube-2{
         position: relative;
-        margin-top: -165px;
+        margin-top: -190px;
         width: 350px;
         left: 94.5%;
     }
@@ -1549,19 +1562,11 @@ form ::placeholder{
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
-        margin-left: 240px;
-        width: 350px;
+        margin-left: 160px;
+        width: 550px;
     }
-    .hero-btn{
-        width: 160px;
-        height: 43px;
-        left: 340px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        margin-left: 40px;
     }
     .cube{
         width: 250px;
@@ -1732,19 +1737,11 @@ form ::placeholder{
         margin-top: 30px;
         font-size: 12px;
         line-height: 35px;
-        margin-left: 240px;
-        width: 350px;
+        margin-left: 160px;
+        width: 550px;
     }
-    .hero-btn{
-        width: 160px;
-        height: 43px;
-        left: 340px;
-    }
-    .net{
-        height: 120px;
-        width: 733px;
-        margin-left: -302px;
-        top: 80px;
+    .btn{
+        margin-left: 40px;
     }
     .cube{
         width: 250px;
@@ -1974,7 +1971,7 @@ form ::placeholder{
         margin-left: 165%;
     }
     .cube-2{
-        left: 130.5%;
+        left: 132%;
     }
     .about{
         width: 194%;
@@ -2002,27 +1999,19 @@ form ::placeholder{
         width: 418px;
     }
     .content{
-        margin-top: 25px;
-        font-size: 8px;
-        margin-left: 50px;
-        line-height: 20px;
-        width: 280px;
+        margin-top: 30px;
+        font-size: 12px;
+        line-height: 35px;
+        margin-left: 40px;
+        width: 350px;
     }
-    .hero-btn{
-        width: 100px;
-        height: 25px;
-        left: 140px;
-        margin-top: -240px;
-    }
-    .net{
-        height: 120px;
-        width: 333px;
-        margin-left: -102px;
-        top: 70px;
+    .btn{
+        margin-top: 100px;
+        margin-left: -190px;
     }
     .cube{
         width: 90px;
-        margin-top: -13px;
+        margin-top: 22%;
     }
     .cube-2{
         width: 120px;
@@ -2270,6 +2259,22 @@ form ::placeholder{
 }
 
 @media screen and (max-width: 375px) {
+    .content{
+        margin-top: 25px;
+        font-size: 8px;
+        margin-left: 20px;
+        line-height: 20px;
+        width: 350px;
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        left: 320px; 
+        margin-top: -60px;
+    }
+    .cube{
+        margin-top: 20%;
+    }
     .cube-2{
         left: 54%;
     }
@@ -2287,25 +2292,33 @@ form ::placeholder{
     .content{
         margin-top: 25px;
         font-size: 8px;
-        margin-left: 50px;
+        margin-left: 20px;
         line-height: 20px;
-        width: 280px;
+        width: 350px;
     }
-    .hero-btn{
-        width: 100px;
-        height: 25px;
-        left: 130px;
-        margin-top: -240px;
+    .btn{
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        left: 108px; 
+        top: 170px;
+        padding-top: 15px;
+        transition: transform .4s;
+        cursor: pointer;
+        background: #035946;
+        border-radius: 1px;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        margin: 18px 18px;
+        color: #fff;
+        text-decoration: none;
     }
-    .net{
-        height: 120px;
-        width: 333px;
-        margin-left: -102px;
-        top: 70px;
-    }
+
     .cube{
         width: 90px;
-        margin-top: -13px;
+        margin-top: 70px;
     }
     .cube-2{
         width: 120px;
@@ -2317,19 +2330,19 @@ form ::placeholder{
   .coin{
     position: absolute;
     margin-left: 69%;
-    margin-top: -35px;
+    margin-top: 20px;
     width: 100px;
     height: 100px;
 }
 .top-off{
-    margin-top: -25px;
+    margin-top: 15px;
     margin-left: 55px;
     font-size: 16px;
 }
 .box{
     display: inline-block;
     margin-left: -60px;
-    margin-top: -20px;
+    margin-top: 10px;
     padding-bottom: 30px;
     gap: 50px;
 }
@@ -2549,25 +2562,22 @@ form ::placeholder{
     .content{
         margin-top: 25px;
         font-size: 8px;
-        margin-left: 40px;
+        margin-left: 20px;
         line-height: 20px;
-        width: 280px;
+        width: 350px;
     }
-    .hero-btn{
-        width: 100px;
-        height: 25px;
-        left: 125px;
-        margin-top: -240px;
-    }
-    .net{
-        height: 120px;
-        width: 333px;
-        margin-left: -102px;
-        top: 70px;
+    .btn{
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 110px; 
+        top: 160px;
     }
     .cube{
         width: 90px;
-        margin-top: -13px;
+        margin-top: 60%;
     }
     .cube-2{
         width: 120px;
@@ -2822,8 +2832,14 @@ form ::placeholder{
 }
 
 @media screen and (max-width: 240px) {
+    .cube{
+        margin-top: 80%;
+    }
     .cube-2{
         left: 69.5%;
+    }
+    .btn{
+        margin-top: -5px;
     }
     .coin{
         margin-left: 102%;

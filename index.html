@@ -172,6 +172,16 @@
         <script src="https://sendfox.com/js/form.js"></script>
         <script src="script.js">
 
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+}    
+
          /*    window.addEventListener('scroll', reveal);
 
            function reveal(){
