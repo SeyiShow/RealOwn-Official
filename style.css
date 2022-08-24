@@ -43,6 +43,8 @@ nav.sticky{
 }
 .slide-down{
     font-style: italic;
+    position: relative;
+    transform: scale(0.1);
 }
 .btn{
     align-items: center;
@@ -731,8 +733,8 @@ form ::placeholder{
         position: absolute;
         width: 150px;
         height: 30px;
-        left: 358px; 
-        top: 280px;
+        left: 610px; 
+        top: 440px;
     }
     .cube{
         margin-top: 15%;
@@ -1328,7 +1330,7 @@ form ::placeholder{
 }
 .box{
     display: inline-block;
-    margin-left: 115px;
+    margin-left: 125px;
     margin-top: -20px;
     padding-bottom: 30px;
     gap: 50px;
@@ -1345,7 +1347,7 @@ form ::placeholder{
     font-size: 18px;
     margin-top: -55px;
     width: 480px;
-    margin-left: 175px;
+    margin-left: 195px;
 }
 .dollar{
     height: 100px;
@@ -2318,7 +2320,7 @@ form ::placeholder{
 
     .cube{
         width: 90px;
-        margin-top: 70px;
+        margin-top: 40px;
     }
     .cube-2{
         width: 120px;
@@ -2341,7 +2343,7 @@ form ::placeholder{
 }
 .box{
     display: inline-block;
-    margin-left: -60px;
+    margin-left: -48px;
     margin-top: 10px;
     padding-bottom: 30px;
     gap: 50px;
@@ -2350,7 +2352,7 @@ form ::placeholder{
     margin: 30px;
     margin-left: 80px;
     font-size: 18px;
-    width: 180px;
+    width: 170px;
 }
 .pra p{
     font-size: 14px;
@@ -2444,11 +2446,11 @@ form ::placeholder{
     .text h1{
         width: 320px;
         font-size: 12px;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .text p{
         width: 300px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .contact h1{
         font-size: 25px;
@@ -2577,7 +2579,7 @@ form ::placeholder{
     }
     .cube{
         width: 90px;
-        margin-top: 60%;
+        margin-top: 20%;
     }
     .cube-2{
         width: 120px;
@@ -2600,7 +2602,7 @@ form ::placeholder{
 }
 .box{
     display: inline-block;
-    margin-left: -60px;
+    margin-left: -52px;
     margin-top: -20px;
     padding-bottom: 30px;
     gap: 50px;
@@ -2622,7 +2624,7 @@ form ::placeholder{
     font-size: 14px;
     margin-top: -50px;
     width: 260px;
-    margin-left: 35px;
+    margin-left: 48px;
 }
 .dollar{
     height: 100px;
@@ -2703,11 +2705,11 @@ form ::placeholder{
     .text h1{
         width: 320px;
         font-size: 12px;
-        margin-left: 1px;
+        margin-left: 23px;
     }
     .text p{
         width: 300px;
-        margin-left: 5px;
+        margin-left: 35px;
     }
     .contact h1{
         font-size: 25px;
@@ -2730,9 +2732,9 @@ form ::placeholder{
     }
     .tree{
         position: absolute;
-        left: 73%;
-        top: -60px;
-        width: 100px;
+        left: 75%;
+        top: -30px;
+        width: 90px;
     }
     
     .input-field{
@@ -2843,5 +2845,14 @@ form ::placeholder{
     }
     .coin{
         margin-left: 102%;
+    }
+    .box{
+       margin-left: -51px;
+    }
+    .text h1{
+        margin-left: 30px;
+    }
+    .text p{
+        margin-left: 33px;
     }
 }
