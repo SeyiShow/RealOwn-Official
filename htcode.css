@@ -1,0 +1,1260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+:root{
+    --primary-color: #035946;
+    --secondary-color: #CFE8CC;
+    --light-h: #99CAAB;
+    --mid-color: #5D8F76;
+}
+
+body{  
+    font-family: 'Gangster Grotesk', sans-serif;
+
+}
+
+/* My hero section code starts */
+ 
+.nav{
+    background-color: #CFE8CC;
+    width: 100%;
+    padding-block: 0.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    margin-inline: auto; 
+    z-index: 99;  
+}
+
+.logo{
+    width: 120px;
+    
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.container1{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.hero-ctn{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.header-text{
+    opacity: 0;
+    font-family: 'Gangster Grotesk', sans-serif;
+    line-height: 70px; 
+    margin: 0 auto;
+    font-size: 0;
+    transition: 1s;
+    color: var(--primary-color);
+    z-index: 22;
+    text-align: center;
+}
+
+.header-text.seen{
+    opacity: 1;
+    margin-top: 6rem;
+}
+
+.header-text1{
+    display: none;
+}
+
+
+.header-text h2{
+    margin: 0;
+    font-size: 56px;
+    /* white-space: none; */
+    line-height: 75px;
+}
+
+.header-text span{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-text .btm.bottom {
+    vertical-align: text-bottom;
+    transition: 2s;
+    line-height: 30px;
+}
+
+.header-text .up.top{
+    vertical-align: text-top;
+    line-height: 30px;
+    transition: 2s;
+}
+
+.btn-sign{
+    background-color: #035946;
+    padding: 15px 72px;
+    color: #fff;
+}
+
+.btn-ctn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cubes{
+    margin-top: -5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.net{
+    position: relative;
+    width: 400px;
+    z-index: 1;
+}
+
+.net img{
+    width: 300px;
+}
+
+/* It ends here */
+
+/* img{
+    width: 100%;
+} */
+
+/* Service Section */
+
+.service{
+    margin-block: 2rem;
+    position: relative;
+}
+
+.container1-body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coins{
+    display: flex;
+    justify-content: right;
+    margin-top: 4rem;
+    z-index: 2;
+    position: relative;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+.card1{
+    width: 350px;
+    height: 200px;
+    background-color: rgba(207, 232, 204, 0.2);;
+    padding: 25px 46px;
+}
+
+.top-off{
+    position: absolute;
+    margin-top: -4rem;
+    padding-left: 4.5rem;
+}
+
+.sub-content h3{
+    color: var(--primary-color);
+    text-align: center;
+    padding-block: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.dollars{
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+    height: 180px;
+    margin-top: 1rem;
+    position: relative;
+
+}
+
+
+/* About Section */
+.about{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+}
+
+.about-img{
+    position: relative;
+}
+
+.coins2{
+    position: absolute;
+    margin-top: -7.5rem;
+}
+
+.marks1{
+    z-index: 1;
+
+    position: relative;
+    margin-top: -1rem;
+}
+
+.about-section{
+    margin-top: -35em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.about-img .images{
+    width: 100%;
+    max-width: 780px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex: 3;
+}
+
+.images-1{
+    width: 100%;
+    max-width: 150px;
+}
+
+.images-2{
+    width: 100%;
+    max-width: 100px;
+}
+
+.images-3{
+    width: 100%;
+    max-width: 150px;
+}
+
+.people-img{
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: baseline;
+    margin: 0 auto;
+    /* left: 50px; */
+    margin: 7% 15%;
+}
+
+.people-img img{
+    width: 50%;
+}
+
+.main h1{
+    margin-top: 17rem;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    color: var(--primary-color);
+}
+
+.row{
+    padding-block: 3rem;
+    padding-inline-start: 3rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000E0A;
+}
+
+/* contact section */
+
+.contact{
+    width: 100%;
+    height: 70vh;
+}
+
+.trees{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 5;
+}
+
+.trees{
+    height: 150px;
+}
+
+.money{
+    position: absolute;
+    padding-top: -2rem;
+    z-index: 3;
+}
+
+.group{
+    width: 660px;
+}
+
+.text h1{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    color: #035946;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+}
+
+.text p{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #000E0A;
+}
+
+.input-carrier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field{
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 1.5em;
+}
+
+.input-h2{
+    color: #fff;
+    font-family: 'Monospace';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53px;
+    letter-spacing: 0.5rem;
+}
+
+.gap{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
+
+form input{
+    background: transparent;
+    width: 380px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 10px;
+    margin: 10px 0;
+    outline: none;
+    border: 0.1px solid #fff;
+}
+
+.form-btn{
+    background-color: var(--light-h);
+    padding: 12px 82px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+form input:focus{
+    outline: none;
+}
+form ::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+
+.social-icons ul li{
+    display: inline;
+    padding: 8px;
+}
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    transform: translate(-10%,-10%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-10%,-10%) scale(1);
+}
+.popup img{
+    margin-top: -10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    color: #000E0A;
+}
+.popup button{
+    width: 100px;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 912px) {
+    .cube-2{
+        width: 520px;
+    }
+
+    .coins{
+        margin-top: -33rem;
+    }
+    
+    .box{
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: -2rem;
+    }
+
+    .card1{
+        width: 480px;
+        height: 200px;
+    }
+    
+    .top-off{
+        padding-left: 14rem;
+    }
+
+    /* about */
+
+    .about-section{
+        display: inline;
+        justify-content: space-around;
+    }
+
+    .main h1{
+        margin-top: 1rem;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+
+    .coins2{
+        position: absolute;
+        margin-top: -7.5rem;
+    }
+
+    .coins2 img{
+        width: 130px;
+        z-index: 90;
+    }
+
+    .marks1 img{
+        position: absolute;
+        margin-top: 9rem;
+        width: 475px;
+    }
+
+    .about-img .images{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        border-radius: 0;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .main h1{
+        margin-top: 1rem;
+        padding: 2.5rem;
+        padding-bottom: 0;
+    }
+
+    .row{
+        width: 70%;
+    }
+
+    /* contact */
+
+    .tree{
+        width: 200px;
+    }
+}
+
+@media (max-width: 820px) {
+    .cubes{
+        padding-top: 1rem;
+    }
+    .cube{
+        width: 320px;
+    }
+
+    .cube-2{
+        width: 475px;
+    }
+
+    .coins{
+        margin-top: -20rem;
+    }
+
+    .card1{
+        width: 420px;
+        height: 200px;
+    }
+
+    .text h1{
+        font-size: 38px;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .cubes{
+        padding-top: 1rem;
+    }
+    .cube{
+        width: 320px;
+    }
+
+    .cube-2{
+        width: 475px;
+    }
+
+    .coins{
+        margin-top: -20rem;
+    }
+
+    .card1{
+        width: 420px;
+        height: 200px;
+    }
+
+    .text h1{
+        font-size: 38px;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cube{
+        width: 290px;
+    }
+
+    .cube-2{
+        width: 420px;
+    }
+
+    .coins{
+        margin-top: -10rem; 
+    }
+}
+
+@media (max-width: 712px) {
+    .cube{
+        width: 290px;
+    }
+
+    .cube-2{
+        width: 420px;
+    }
+
+    .coins{
+        margin-top: -15rem; 
+    }
+}
+
+@media (max-width: 640px) {
+    .cubes{
+        padding-top: 3rem;
+    }
+
+    .cube{
+        width: 240px;
+    }
+
+    .cube-2{
+        width: 350px;
+    }
+
+    .coins{
+        padding-top: 50rem;
+    }
+
+    .top-off{
+        padding-left: 7rem;
+    }
+
+    .group{
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        overflow-x: none;
+    }
+    .container1{
+        width: 50%;
+        padding-top: -8rem;
+        
+    }
+
+    .header-text h2{
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .header-text .btm.bottom {
+        vertical-align: text-bottom;
+        transition: 2s;
+        line-height: 10px;
+    }
+
+    .header-text .up.top{
+        vertical-align: text-top;
+        line-height: 10px;
+        transition: 2s;
+    }
+
+    .hero-ctn{
+        background-image: url('../RealOwn-Official/images/Landingpage/hero-sm.svg');
+        height: 80vh;
+        background-size: 100%;
+    }
+
+    .cubes{
+        display: block;
+        margin-top: -3rem;
+    }
+
+    .cube{
+        width: 250px;
+    }
+
+    .cube-2{
+        width: 345px;
+    }
+    
+    .net{
+        display: none;
+    }
+/* ends here */
+
+    /* service begins here */
+
+    .service{
+        margin-block: 2rem;
+        position: relative;
+    }
+    
+    .container1-body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .coins{
+        margin-top: -50rem;
+    }
+    
+    .box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+        align-items: center;
+        margin-top: -2rem;
+    }
+    
+    .card1{
+        width: 350px;
+        height: 200px;
+        background-color: rgba(207, 232, 204, 0.2);;
+        padding: 25px 46px;
+    }
+    
+    .top-off{
+        padding-left: 8rem;
+    }
+    
+    .sub-content h3{
+        width: 80%;
+        padding-bottom: 4rem;
+    }
+    .dollars{
+        display: none;
+    
+    }
+/* ends here */    
+
+/* about section */
+    .coins2{
+        position: absolute;
+        margin-top: -5.5rem;
+    }
+
+    .coins2 img{
+        width: 100px;
+        z-index: 90;
+    }
+
+    .marks1 img{
+        position: relative;
+        margin-top: 1rem;
+        width: 310px;
+    }
+
+    .about-img .images{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        border-radius: 0;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about-img{
+        margin-top: 2rem;
+    }
+
+    .images-1{
+        width: 100%;
+        max-width: 80px;
+    }
+    
+    .images-2{
+        width: 100%;
+        max-width: 40px;
+    }
+    
+    .images-3{
+        width: 100%;
+        max-width: 80px;
+    }
+
+    .about-section{
+        margin-top: -105em;
+        display: inline-block;
+        justify-content: space-around;
+    }
+
+    .main h1{
+        margin-top: 1rem;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+
+    /* contact section */
+
+    .trees{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        z-index: 5;
+    }
+    
+    .tree{
+        height: 190px;
+        width: 120;
+    }
+    
+    .group{
+        width: 500px;
+    }
+
+    .text h1{
+        font-size: 26px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+    
+    .input-field{
+        width: 85%;
+    }
+    
+    .input-h2{
+        font-size: 24px;
+        line-height: 45px;
+        letter-spacing: 0.2rem;
+        width: 100%;
+    }
+    
+    .gap{
+        font-size: 12px;
+        line-height: 20px;
+        width: 100%;
+    }
+    
+    form input{
+        width: 380px;
+        height: 40px;
+    }
+    
+    .social-icons{
+        justify-content: center;
+    }
+    
+    .social-icons ul li{
+        display: inline;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .group{
+        width: 300px;
+    }
+
+    .btn-sign{
+        padding: 15px 52px;
+    }
+
+    .cube{
+        width: 205px;
+    }
+
+    .coins{
+        margin-top: -40rem;
+    }
+
+    .coins img{
+        width: 130px;
+    }
+
+    .marks1 img{
+        width: 283px;
+    }
+
+    .coins2{
+        margin-top: -4rem;
+    }
+
+    .cube-2{
+        width: 330px;
+    }
+
+    .sub-content h3{
+        padding-bottom: 6rem;
+    }
+
+    form input{
+        width: 260px;
+    }
+
+
+    .input-h2{
+        font-size: 23px;
+        letter-spacing: normal;
+    }
+
+    .text p{
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .gap{
+        font-size: 15px;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .container1{
+        width: 80%;
+    }
+
+    .group{
+        width: 300px;
+    }
+
+    .btn-sign{
+        padding: 15px 52px;
+    }
+
+    .cube{
+        width: 156px;
+    }
+
+    .coins{
+        margin-top: -38rem;
+    }
+
+    .coins img{
+        width: 130px;
+    }
+
+    .marks1 img{
+        width: 243px;
+    }
+
+    .coins2{
+        margin-top: -4rem;
+    }
+
+    .cube-2{
+        width: 250px;
+    }
+
+    form input{
+        width: 260px;
+    }
+
+    .input-h2{
+        font-size: 23px;
+        letter-spacing: normal;
+    }
+
+}
+
+@media (max-width: 412px) {
+    .container1{
+        width: 80%;
+    }
+
+    .btn-sign{
+        padding: 15px 52px;
+    }
+
+    .cube{
+        width: 156px;
+    }
+
+    .cube-2{
+        width: 250px;
+    }
+
+    .group{
+        width: 300px;
+    }
+
+    form input{
+        width: 250px;
+    }
+
+    .coins{
+        margin-top: -53rem;
+    }
+
+    .coins img{
+        width: 140px;
+    }
+
+    .marks1 img{
+        width: 240px;
+    }
+
+    .coins2{
+        width: 100px;
+        margin-top: -4.5rem;
+    }
+
+    .input-h2{
+        font-size: 23px;
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: 411px) {
+    .coins{
+        margin-top: -46rem;
+    }
+} 
+
+@media (max-width: 393px) {
+    .container1{
+        width: 80%;
+    }
+
+    .cubes{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cube-2{
+        width: 220px;
+    }
+
+    .coins{
+        margin-top: -52rem;
+    }
+
+    .text h1{
+        width: 80%;
+    }
+}
+
+@media (max-width: 384px) {
+    .btn-sign{
+        padding: 15px 52px;
+    }
+
+    .container1{
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .top-off{
+        margin-left: -6rem;
+    }
+
+    .marks1 img{
+        margin-top: 1rem;
+        width: 230px;
+    }
+
+    .cube{
+        width: 145px;
+    }
+
+    .cube-2{
+        width: 230px;
+    }
+
+    .coins{
+        margin-top: -42rem;
+    }
+
+    .coins img{
+        width: 130px;
+    }
+
+    .group{
+        width: 300px;
+    }
+
+    .coins2{
+        margin-top: -3.5rem;
+    }
+
+    .tree{
+        width: 120px;
+    }
+
+    .text h1{
+        font-size: 24px;
+        letter-spacing: normal;
+        line-height: 35px;
+    }
+
+    .input-h2{
+        font-size: 22px;
+        letter-spacing: normal;
+    }
+
+    form input{
+        width: 230px;
+    }
+
+    .form-btn{
+        padding: 12px 52px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cube-2{
+        width: 225px;
+    }
+}
+
+@media (max-width: 360px) {
+    .btn-sign{
+        padding: 15px 42px;
+    }
+
+    .container1{
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .cube{
+        width: 145px;
+    }
+
+    .cube-2{
+        width: 210px;
+    }
+
+    .coins{
+        margin-top: -42rem;
+    }
+
+    .coins img{
+        width: 140px;
+    }
+
+    .card1{
+        width: 300px;
+        height: 200px;
+    }
+
+    .marks1 img{
+        position: relative;
+        margin-top: 1rem;
+        width: 220px;
+    }
+
+    .group{
+        width: 310px;
+    }
+
+    .tree{
+        width: 120px;
+    }
+
+    .text h1{
+        width: 70%;
+        font-size: 22px;
+        letter-spacing: normal;
+        line-height: 35px;
+    }
+
+    .text p{
+        font-size: 16px;
+        letter-spacing: normal;
+        max-width: 80%;
+    }
+
+    .input-h2{
+        font-size: 22px;
+        letter-spacing: normal;
+    }
+
+    form input{
+        width: 230px;
+    }
+
+    .form-btn{
+        padding: 12px 52px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cube{
+        width: 100px;
+    }
+
+    .cube-2{
+        width: 150px;
+    }
+
+    .coins{
+        margin-top: -38rem;
+    }
+
+    .coins img{
+        width: 100px;
+    }
+
+    .input-h2{
+        letter-spacing: normal;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .cube{
+        width: 100px;
+    }
+
+    .cube-2{
+        width: 150px;
+    }
+
+    .coins{
+        margin-top: -38rem;
+    }
+
+    .coins img{
+        width: 100px;
+    }
+
+    .group{
+        width: 200px;
+    }
+
+    form input{
+        width: 200px;
+    }
+}
+
+@media (max-width: 240px) {
+    .group{
+        width: 200px;
+    }
+
+    form input{
+        width: 150px;
+    }
+}
