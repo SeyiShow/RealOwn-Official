@@ -527,7 +527,7 @@ form ::placeholder{
     }
 
     .row{
-        width: 70%;
+        width: 90%;
     }
 
     /* contact */
@@ -992,6 +992,10 @@ form ::placeholder{
         width: 250px;
     }
 
+    .coins{
+        margin-top: 10rem;
+    }
+
     .group{
         width: 300px;
     }
@@ -1025,7 +1029,7 @@ form ::placeholder{
 
 @media (max-width: 411px) {
     .coins{
-        margin-top: -46rem;
+        margin-top: -30rem;
     }
 } 
 
@@ -1201,11 +1205,11 @@ form ::placeholder{
 
 @media (max-width: 320px) {
     .cube{
-        width: 100px;
+        width: 130px;
     }
 
     .cube-2{
-        width: 150px;
+        width: 180px;
     }
 
     .coins{
@@ -1216,9 +1220,19 @@ form ::placeholder{
         width: 100px;
     }
 
+    .card1{
+        width: 280px;
+        height: 210px;
+    }
+
     .input-h2{
         letter-spacing: normal;
         font-size: 18px;
+    }
+
+    .social-icons ul li{
+        display: inline;
+        padding: 6px;
     }
 
 }
