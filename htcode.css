@@ -455,6 +455,12 @@ form ::placeholder{
     cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+    .coins{
+        margin-top: 17rem;
+    }
+}
+
 @media (max-width: 912px) {
     .cube-2{
         width: 520px;
@@ -927,6 +933,25 @@ form ::placeholder{
 
 }
 
+@media (max-width: 480px) {
+    .container1{
+        width: 90%;
+    }
+
+    .cubes{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cube{
+        width: 190px;
+    }
+
+    .cube-2{
+        width: 280px;
+    }
+}
+
 @media (max-width: 414px) {
     .container1{
         width: 80%;
@@ -1035,7 +1060,7 @@ form ::placeholder{
 
 @media (max-width: 393px) {
     .container1{
-        width: 80%;
+        width: 90%;
     }
 
     .cubes{
@@ -1048,7 +1073,7 @@ form ::placeholder{
     }
 
     .coins{
-        margin-top: -52rem;
+        margin-top: -45rem;
     }
 
     .text h1{
@@ -1213,7 +1238,7 @@ form ::placeholder{
     }
 
     .coins{
-        margin-top: -38rem;
+        margin-top: -34rem;
     }
 
     .coins img{
@@ -1264,8 +1289,24 @@ form ::placeholder{
 }
 
 @media (max-width: 240px) {
+    .about-img{
+        width: 220px;
+    }
     .group{
         width: 200px;
+    }
+
+    .cube-2{
+        width: 140px;
+    }
+
+    .coins{
+        margin-top: -18rem;
+    }
+    
+    .main h1{
+        font-size: 40px;
+        padding-left: -2rem;
     }
 
     form input{
